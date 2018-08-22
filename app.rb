@@ -18,6 +18,12 @@ class App < Sinatra::Base
   get '/say/:number/:phrase' do
     @what = params[:phrase] * params[:number].to_i
     "#{@what}"
+    # answer = ''
+
+ # params[:number].to_i.times do
+ #   answer += params[:phrase]
+ # end
+ # answer
   end
 
 end
