@@ -30,8 +30,8 @@ class App < Sinatra::Base
     @string = ''
     params.each.with_index(1) do |word, i|
       @string += params[:wordi] + ' '
-      @string
     end
+    @string + '.'
   end
 
 end
