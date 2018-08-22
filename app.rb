@@ -32,7 +32,7 @@ class App < Sinatra::Base
     # params.each.with_index(1) do |word, i|
     #   @string += params[:wordi] + " "
     # end
-    # @string + "."
+    # @string + "."   <---can only get concatenate test to pass, not others?
   end
 
   get '/:operation/:number1/:number2' do
