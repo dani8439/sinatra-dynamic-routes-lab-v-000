@@ -20,10 +20,10 @@ class App < Sinatra::Base
     "#{@what}"
     # answer = ''
 
- # params[:number].to_i.times do
- #   answer += params[:phrase]
- # end
- # answer
+    # params[:number].to_i.times do
+    #   answer += params[:phrase]
+    # end
+    # answer
   end
 
 end
