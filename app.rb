@@ -27,7 +27,7 @@ class App < Sinatra::Base
   end
 
   get '/say/:word1/:word2/:word3/:word4/:word5' do
-    @string = ''
+    @string = ' '
     params.each.with_index(1) do |word, i|
       @string += params[:wordi] + ' '
     end
