@@ -32,7 +32,6 @@ class App < Sinatra::Base
       @string += params[:wordi] + ' '
       @string
     end
-
   end
 
 end
